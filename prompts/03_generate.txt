@@ -1,0 +1,1 @@
+Read .agents/skills/sqlmesh-retail/SKILL.md and requirements/03_generate.md. Propose the grain, join logic, loading strategy, and tests before coding. Implement a correct FULL fact model first; evaluate incremental-by-unique-key separately. Run checks, report results, and create a reviewable branch/PR. Do not deploy to prod.

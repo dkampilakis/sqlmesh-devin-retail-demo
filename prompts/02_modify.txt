@@ -1,0 +1,1 @@
+Read .agents/skills/sqlmesh-retail/SKILL.md and requirements/02_modify.md. Explain the DAG changes before implementation. Implement on a feature branch, add boundary and cancellation tests, run SQLMesh checks and report the diff. Do not deploy to prod.

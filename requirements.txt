@@ -1,0 +1,2 @@
+sqlmesh[duckdb]>=0.200
+pyyaml>=6

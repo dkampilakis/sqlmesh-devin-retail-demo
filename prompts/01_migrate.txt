@@ -1,0 +1,1 @@
+Read .agents/skills/sqlmesh-retail/SKILL.md and requirements/01_migrate.md. First inspect the repository and propose a plan. Then implement the migration on a feature branch, add unit tests and audits, run SQLMesh validation/tests, and report actual results. Do not modify baseline dim_customer or deploy to prod.

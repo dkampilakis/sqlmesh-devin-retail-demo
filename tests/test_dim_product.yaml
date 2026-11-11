@@ -1,0 +1,10 @@
+test_dim_product_basic:
+  model: retail.dim_product
+  inputs:
+    retail.stg_products:
+      rows:
+        - {product_id: 101, product_name: Laptop, category: Electronics, list_price: 1200.00}
+  outputs:
+    query:
+      rows:
+        - {product_id: 101, product_name: Laptop, category: Electronics, list_price: 1200.00}

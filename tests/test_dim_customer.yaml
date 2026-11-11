@@ -1,0 +1,12 @@
+test_dim_customer_basic:
+  model: retail.dim_customer
+  inputs:
+    retail.stg_customers:
+      rows:
+        - {customer_id: 1, customer_name: Alice, country: GR, email: alice@example.test, is_active: 1}
+        - {customer_id: 2, customer_name: Bob, country: DE, email: bob@example.test, is_active: 0}
+  outputs:
+    query:
+      rows:
+        - {customer_id: 1, customer_name: Alice, country: GR, email: alice@example.test, is_active: 1}
+        - {customer_id: 2, customer_name: Bob, country: DE, email: bob@example.test, is_active: 0}
